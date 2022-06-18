@@ -2,8 +2,8 @@ not_selfnum = set()
 
 def d(n):
     for i in str(n):
-        n += int(i)
-    return n
+        n += int(i) 
+    # return n
 
 for i in range(1, 10001):
     not_selfnum.add(d(i))
