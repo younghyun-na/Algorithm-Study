@@ -7,9 +7,7 @@ def solution(progresses, speeds):
     i = 0
 
     for j in range(len(progresses)):
-        # days.append(math.ceil((100-progresses[j])/speeds[j]))
-        days.append(-(-100+progresses[j]//speeds[j]))
-        
+        days.append(math.ceil((100-progresses[j])/speeds[j]))
 
     for day in days:
 
