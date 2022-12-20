@@ -10,7 +10,6 @@ for i in range(N):
 
         if stack[-1][1] > heights[i]:   
             answer.append(stack[-1][0] + 1)
-            stack.append([i, heights[i]])
             break
 
         else:         
