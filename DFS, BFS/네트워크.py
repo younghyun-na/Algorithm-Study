@@ -12,7 +12,3 @@ def solution(n, computers):
           dfs(n, computers, i, visited)
           answer += 1
     return answer
-
-
-
-print(solution(3,	[[1, 1, 0], [1, 1, 0], [0, 0, 1]]))
